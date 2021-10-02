@@ -1,0 +1,167 @@
+body{
+	background-color: white;
+	margin: 0px;
+	text-align: center;
+	font-family: sans-serif;
+	
+
+}
+
+p{
+	
+	font-size: 20px;
+}
+
+h1{
+	
+	font-size: 3.75rem;
+	margin-top: 50px;
+	font-family: 'Great Vibes', cursive;
+	color: #046582;
+}
+
+h2{
+	font-size: 2rem;
+	font-family: 'Kalam', cursive;
+	color: #046582;
+	font-weight: normal;
+}
+h3{
+	color: #046582;
+	font-size: 2rem;
+}
+div.d1{
+	background-color: #a4ebf3;
+	position: relative;
+	padding: 120px;
+}
+
+.top-cloud{
+	position: absolute;
+	width: 100px;
+	right: 200px;
+	top: 120px;
+}
+.bottom-cloud{
+	position: absolute;
+    width: 100px;
+    top: 200px;
+}
+.mountain{
+	width: 800px;
+	height: 350px;
+}
+
+.pro{
+	text-decoration: underline;
+}
+
+
+.profile{
+	
+	text-align: center;
+}
+.user-pic{
+	width: 15%;
+	margin: 30px auto 10px auto;
+}
+
+.intro{
+	margin: auto;
+	width: 30%;
+}
+
+#code-img{
+	float: left;
+	margin-right: 40px;
+	width: 25%;
+	
+}
+
+#chess-img{
+	width: 25%;
+	float: right;
+	margin-left: 40px;
+}
+.skill-row{
+
+	width: 50%;
+	margin: 80px auto 100px auto;
+	text-align: left;
+}
+
+
+.hrline{
+	width: 5%;
+	border-style: dotted none none none;
+	border-color: gray;
+	border-height: 0px;
+	border-width: 5px;
+}
+.btn{
+	margin: 20px auto 10px auto;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 40px;
+   color: black;
+   font-family: 'Kalam', cursive;
+   font-size: 25px;
+   font-weight: 200;
+   padding: 5px;
+   background-color: #A4EBF3;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #33ED96 1px;
+   background: #1ED096;
+   background-image: -webkit-linear-gradient(top, #1ED096, #3DF6B1);
+   background-image: -moz-linear-gradient(top, #1ED096, #3DF6B1);
+   background-image: -ms-linear-gradient(top, #1ED096, #3DF6B1);
+   background-image: -o-linear-gradient(top, #1ED096, #3DF6B1);
+   background-image: -webkit-gradient(to bottom, #1ED096, #3DF6B1);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 20px;
+   border-radius: 40px;
+   text-decoration: none;
+}
+
+.main_footer
+{
+	background-color: #2db7dc;
+	margin-top: 40px;
+	padding: 10px;
+	text-align: center;
+}
+
+.main_footer_links
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_footer_link
+{
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.main_footer_link a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.main_footer_link a:hover,
+.main_footer_link a:active
+{
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	color: #2db7dc;
+}
