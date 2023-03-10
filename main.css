@@ -1,15 +1,16 @@
 body{
-	background-color: white;
+	background-color: rgb(0, 0, 0);
+	background-color: #18122B;
+	color: white;
 	margin: 0px;
 	text-align: center;
 	font-family: sans-serif;
-	
-
+	box-sizing: border-box;
 }
 
 p{
-	
 	font-size: 20px;
+	font-family: 'Kalam', cursive;
 }
 
 h1{
@@ -23,7 +24,7 @@ h1{
 h2{
 	font-size: 2rem;
 	font-family: 'Kalam', cursive;
-	color: #046582;
+	color: #ffffff;
 	font-weight: normal;
 }
 h3{
@@ -31,7 +32,7 @@ h3{
 	font-size: 2rem;
 }
 div.d1{
-	background-color: #a4ebf3;
+	background-color: #BAD7E9;
 	position: relative;
 	padding: 120px;
 }
@@ -52,42 +53,9 @@ div.d1{
 	height: 350px;
 }
 
-.pro{
-	text-decoration: underline;
-}
-
-
 .profile{
 	
 	text-align: center;
-}
-.user-pic{
-	width: 15%;
-	margin: 30px auto 10px auto;
-}
-
-.intro{
-	margin: auto;
-	width: 30%;
-}
-
-#code-img{
-	float: left;
-	margin-right: 40px;
-	width: 25%;
-	
-}
-
-#chess-img{
-	width: 25%;
-	float: right;
-	margin-left: 40px;
-}
-.skill-row{
-
-	width: 50%;
-	margin: 80px auto 100px auto;
-	text-align: left;
 }
 
 
@@ -95,53 +63,18 @@ div.d1{
 	width: 5%;
 	border-style: dotted none none none;
 	border-color: gray;
-	border-height: 0px;
 	border-width: 5px;
 }
-.btn{
-	margin: 20px auto 10px auto;
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 40px;
-   color: black;
-   font-family: 'Kalam', cursive;
-   font-size: 25px;
-   font-weight: 200;
-   padding: 5px;
-   background-color: #A4EBF3;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-
-.btn:hover {
-   border: solid #33ED96 1px;
-   background: #1ED096;
-   background-image: -webkit-linear-gradient(top, #1ED096, #3DF6B1);
-   background-image: -moz-linear-gradient(top, #1ED096, #3DF6B1);
-   background-image: -ms-linear-gradient(top, #1ED096, #3DF6B1);
-   background-image: -o-linear-gradient(top, #1ED096, #3DF6B1);
-   background-image: -webkit-gradient(to bottom, #1ED096, #3DF6B1);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 20px;
-   border-radius: 40px;
-   text-decoration: none;
-}
-
 .main_footer
 {
-	background-color: #2db7dc;
-	margin-top: 40px;
-	padding: 10px;
+	background-color: #BAD7E9;
+	margin-top: 20px;
 	text-align: center;
 }
 
 .main_footer_links
 {
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
 }
 
 .main_footer_link
@@ -150,19 +83,133 @@ div.d1{
 	margin: 0px 20px;
 }
 
-.main_footer_link a
-{
-	text-decoration: none;
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
+.footer-link{
+	margin: 3px;
 }
 
-.main_footer_link a:hover,
-.main_footer_link a:active
-{
-	background-color: white;
-	border: 2px solid black;
-	border-radius: 5px;
+.di2{
+	float: left;
+	width: 40%;
+	text-align: justify; 
+	margin: 6px;
+}
+
+.di3{
+	float: right;
+	width: 40%;
+	padding: 70px 50px;
+}
+
+
+.box{
+	width: 304px;
+	height: 330px;
+	background-color: #4D455D;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+.box:hover{
+	transition-delay: 1;
+	opacity: 1;
+}
+.img-div{
+	position: absolute;
+}
+.imgP{
+	border-radius: 10px;
+}
+
+
+.ul{
+	display: flex;
+	text-align: center;
+}
+
+.profile1{
+	display: inline-block;
+	margin: 0px 200px;
+}
+
+.appPic{
+	height: 400px; 
+	width: 800px;
+	margin: 20px;
+}
+
+.odd{
+	float: right;
+	width: 50%;
+	margin-right: 4%;
+	background-color: #4D455D;
+	opacity: 0.5;
+}
+.odd:hover{
+	transition-delay: 1;
+	opacity: 1;
+}
+.even{
+	float: left;
+	width: 50%;
+	margin-left: 4%;
+	background-color: #4D455D;
+	opacity: 0.5;
+}
+.even:hover{
+	transition-delay: 1;
+	opacity: 1;
+}
+
+.appInfo{
+	height: 500px;
+}
+
+.AppDescL{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin: 8% 10%;
+}
+
+.AppDescR{
+	float: right;
+	width: 20%;
+	text-align: center;	
+	margin: 8% 10%;
+}
+
+.AppDescHeading{
+	font-size: 50px;
+	margin-top: 5%;
 	color: #2db7dc;
+	margin-bottom: 0;
+}
+
+.accounts{
+	width: 50px;
+	height: 50px;
+	margin-top: 5%;
+}
+
+.btn {
+	font-family: Georgia;
+	color: #18122B;
+	background: #e1e5e8;
+	padding: 1px 2px;
+	text-decoration: none;
+  }
+  
+  .btn:hover {
+	color: white;
+	background: #046582;
+	text-decoration: none;
+  }
+
+.btnText{
+	font-size: 20px;
+	font-family: 'Kalam', cursive;
+	margin: 0px
+}
+
+.creater{
+	color: #046582;
 }
