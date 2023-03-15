@@ -75,6 +75,7 @@ div.d1{
 .main_footer_links
 {
 	list-style: none;
+	margin-bottom: 0;
 }
 
 .main_footer_link
@@ -218,4 +219,5 @@ div.d1{
 
 .creater{
 	color: #046582;
+	margin-bottom: 0;
 }
