@@ -191,23 +191,29 @@ div.d1{
 }
 
 .btn {
-	font-family: Georgia;
-	color: #18122B;
 	background: #e1e5e8;
 	padding: 1px 2px;
 	text-decoration: none;
-  }
-  
-  .btn:hover {
-	color: white;
-	background: #046582;
-	text-decoration: none;
-  }
+	border-radius: 5px;
 
+}
+
+.btn:hover{
+	
+	background: #046582;
+}
+  
 .btnText{
 	font-size: 20px;
 	font-family: 'Kalam', cursive;
-	margin: 0px
+	color: #18122B;
+	padding: 1px 2px;
+	text-decoration: none;
+}
+
+.btnText:hover {
+	color: white;
+	text-decoration: none;
 }
 
 .creater{
